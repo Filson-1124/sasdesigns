@@ -482,14 +482,34 @@ a:visited{
     font-size: 50px;
 }
 
-@media(max-width:1224px){
+@media (max-width:1230px){
 
     .nav1, .nav2, .nav3{
         display: none;
     }
+
+    .W-top{
+        padding-top: 10px;
+    }
+
+    .P-top{
+        padding-top: 10px;
+    }
+    .W-top h1{
+        padding-top: 10px;
+    }
+    .P-top h1{
+        padding-top: 10px;
+    }
+    .feat1{
+        margin-top: 20px;
+    }
     .features{
-        flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction:column;
+    }
+
+    .feat1, .feat2, .feat3{
+        font-size: 30px;
     }
 
 
@@ -499,30 +519,18 @@ a:visited{
         flex-direction: column-reverse;
     }
     .pic{
-        margin-top: -200px;
-        height: 900px;
+        margin-top: 90px;
+        height: 700px;
         margin-bottom: 50px;
     }
 
     .pic img{
         padding-top: 40px;
         padding-left: 30px;
-        padding-right: 40px;
+        padding-right: 20px;
         margin-right: 10px;
         width: 940px;
-        height: 800px;
-    }
-
-    .feat1, .feat2, .feat3{
-        padding-top: 10px;
-        margin-top: 30px;
-    }
-
-
-    .gal{
-       
-        width: 900px;
-        height: 800px;
+        height: 700px;
     }
 
     img.pic1, img.pic2, img.pic3, img.pic4, img.pic5, img.pic6,img.pic7, img.pic6, img.pic7, img.pic8, img.pic9{
@@ -531,9 +539,20 @@ a:visited{
         left: max(calc(500px * 9), 100%);
     }  
 
+    @keyframes slidetoleft{
+        to{
+    
+            left:-500px;
+        }
+    }
+    .gal{
+        border:1px solid black;
+        width: 900px;
+        height: 800px;
+    }
 
     .ntgal{
-       
+        border:1px solid black;
         width: 900px;
         height: 800px;
     }
@@ -544,151 +563,16 @@ a:visited{
         right: max(calc(500px * 9), 100%);
     }  
 
-    @keyframes slidetoleft{
-        to{
-    
-            left:-500px;
-        }
-    }
-
     @keyframes slidetoright{
         to{
             right:-500px;
         }
     }
-    .rates{
-        height: 800px;
-    }
-    
-    .ratings{
-        font-size: 15px;
-    }
+
+
 
 }
 
-@media(max-width:1024px){
-    .P-top h1{
-        padding-top: 30px;
-    }
-    .W-top h1{
-        padding-top: 30px;
-    }
-
-    .pic{
-        margin-top: 1px;
-        padding-top: 20px;
-        top: 200px;
-        height: 350px;
-        width: 900px;
-    }
-    .pic img{
-        position: relative;
-        top: -40px;
-        height: 370px;
-        width: 900px;
-    }
-
-    .intro h1{
-        font-size: 40px;
-    }
-
-
-
-    .feats h1{
-        padding-top: 20px;
-    }
-
-    .features{
-        flex-direction: row;
-        flex-wrap: nowrap;
-        width: 1000px;
-    }
-
-    .feat1, .feat2, .feat3{
-        font-size: 20px;
-        width: 400;
-
-    }
-
-    .feat1 p, .feat2 p, .feat3 p{
-        font-size: 15px;
-
-    }
-    .feat1 span, .feat2 span, .feat3 span{
-        font-size: 50px;
-
-    }
-
-    .gal{
-        margin-top: 20px;
-        width: 900px;
-        height: 800px;
-    }
-
-    img.pic1, img.pic2, img.pic3, img.pic4, img.pic5, img.pic6,img.pic7, img.pic6, img.pic7, img.pic8, img.pic9{
-        height: 450px;
-        width:300px ;
-        left: max(calc(300px * 9), 100%);
-    }  
-
-
-    .ntgal{
-        margin-top: 20px;
-        width: 900px;
-        height: 800px;
-    }
-
-    img.ntpic1, img.ntpic2, img.ntpic3, img.ntpic4, img.ntpic5, img.ntpic6,img.ntpic7, img.ntpic6, img.ntpic7, img.ntpic8, img.ntpic9{
-        height: 450px;
-        width:300px ;
-        right: max(calc(300px * 9), 100%);
-    }  
-
-    .ratings{
-        font-size: 12px;
-    }
-
-    @keyframes slidetoleft{
-        to{
-    
-            left:-500px;
-        }
-    }
-
-    @keyframes slidetoright{
-        to{
-            right:-500px;
-        }
-    
-}
-
-
-@media(max-width:820px){
-    .pic{
-        margin-top: 40px;
-        top: 120px;
-        height: 500px;
-        width: 780px;
-    }
-
-    .pic img{
-        height: 500px;
-        width: 790px;
-    }
-
-    .features{
-        gap:10px
-    }
-
-    .feat1 p, .feat2 p, .feat3 p{
-        font-size: 20px;
-    }
-    .feat1 span, .feat2 span, .feat3 span{
-        font-size: 40px;
-    }
-
-
-}
 
 
 
