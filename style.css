@@ -508,8 +508,8 @@ a:visited{
     grid-row: span 3;
 
     background:#ebeef1;
-    border-radius: 10px;
-    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),-10px -10px 10px -1px rgb(255,255,255,0.70);
+  
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),-10px -10px 10px -1px rgba(129, 56, 151, 0.7);
     border-radius: 20px;
 
     padding-bottom: 40px;
