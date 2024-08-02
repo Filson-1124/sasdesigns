@@ -484,108 +484,8 @@ a:visited{
 
 
 
-@media screen and (max-width: 1440px){
 
-    .nav1, .nav2, .nav3{
-        display: none;
-    }
-
-    .W-top{
-        padding-top: 10px;
-    }
-
-    .P-top{
-        padding-top: 10px;
-    }
-    .W-top h1{
-        padding-top: 10px;
-    }
-    .P-top h1{
-        padding-top: 10px;
-    }
- 
-    .features{
-        flex-direction:row;
-        gap: 10px;
-    }
-
-    .feat1, .feat2, .feat3{
-        width: 400px;
-        font-size: 30px;
-    }
-
-    .feat1 p, .feat2 p, .feat3 p{
-        font-size: 15px;
-    }
-
-
-    .content{
-        
-        padding-top:40px ;
-        flex-direction: column-reverse;
-    }
-    .pic{
-        margin-top: 90px;
-        width: 800px;
-        height: 300px;
-        margin-bottom: 50px;
-    }
-
-    .pic img{
-        padding-top: 20px;
-        padding-left: 20px;
-        padding-right: 20px;
-        margin-right: 10px;
-        width: 800px;
-        height: 300px;
-    }
-
-    .intro h1{
-        font-size: 40px;
-    }
-
-    img.pic1, img.pic2, img.pic3, img.pic4, img.pic5, img.pic6,img.pic7, img.pic6, img.pic7, img.pic8, img.pic9{
-        height: 600px;
-        width: 300px ;
-        left: max(calc(300px * 9), 100%);
-    }  
-
-    @keyframes slidetoleft{
-        to{
-    
-            left:-500px;
-        }
-    }
-    .gal{
-        margin-top: 20px;
-        width: 900px;
-        height: 800px;
-    }
-
-    .ntgal{
-        margin-top: 20px;
-        width: 900px;
-        height: 800px;
-    }
-
-    img.ntpic1, img.ntpic2, img.ntpic3, img.ntpic4, img.ntpic5, img.ntpic6,img.ntpic7, img.ntpic6, img.ntpic7, img.ntpic8, img.ntpic9{
-        height: 600px;
-        width: 300px ;
-        right: max(calc(300px * 9), 100%);
-    }  
-
-    @keyframes slidetoright{
-        to{
-            right:-500px;
-        }
-    }
-
-
-
-}
-
-
-@media all and (width: 1024px){
+@media all and (max-width: 1024px){
 
     
     .W-top{
@@ -600,6 +500,10 @@ a:visited{
     }
     .P-top h1{
         padding-top: 10px;
+    }
+
+    .intro button{
+        width: 840px;
     }
 
    
@@ -614,7 +518,18 @@ a:visited{
     }
 }
 
-@media all and (width: 768px){
+@media all and (max-width: 768px){
+    .pic{
+        width: 730px;
+    }
+    .pic img{
+        width: 730px;
+    }
+
+    .intro h1{
+        width: 740px;
+        margin-bottom:0px;
+    }
     .features{
         flex-direction: row;
         flex-wrap: wrap;
@@ -625,9 +540,34 @@ a:visited{
         margin-top: 20px;
          font-size: 30px;
      }
+
+     .intro button{
+        margin-top: 20px;
+        width: 710px;
+     }
 }
 
-@media all and (width: 425px){
+@media all and (max-width: 425px){
+    .nav4{
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav4 .txt a{
+        display: none;
+    }
+
+
+    .nav4 span{
+    
+        font-size: 30px;
+    }
+
+    .nav4:hover{
+        .txt{
+            color: transparent;
+        }
+    }
     .intro h1{
         width: 300px;
         font-size: 30px;
@@ -673,7 +613,27 @@ a:visited{
     }
 }
 
-@media all and (width: 375px){
+@media all and (max-width: 375px){
+    .nav4{
+        width: 60px;
+        height: 60px;
+    }
+
+    .nav4 .txt a{
+        display: none;
+    }
+
+
+    .nav4 span{
+    
+        font-size: 30px;
+    }
+
+    .nav4:hover{
+        .txt{
+            color: transparent;
+        }
+    }
 
     .intro h1{
         width: 300px;
@@ -717,7 +677,6 @@ a:visited{
         height: 200vh;
     }
 }
-
 
 
 
