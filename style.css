@@ -482,7 +482,7 @@ a:visited{
     font-size: 50px;
 }
 
-@media (max-width:1230px){
+@media screen and (max-width: 1440px){
 
     .nav1, .nav2, .nav3{
         display: none;
@@ -501,15 +501,19 @@ a:visited{
     .P-top h1{
         padding-top: 10px;
     }
-    .feat1{
-        margin-top: 20px;
-    }
+ 
     .features{
-        flex-direction:column;
+        flex-direction:row;
+        gap: 10px;
     }
 
     .feat1, .feat2, .feat3{
+        width: 400px;
         font-size: 30px;
+    }
+
+    .feat1 p, .feat2 p, .feat3 p{
+        font-size: 15px;
     }
 
 
@@ -520,23 +524,28 @@ a:visited{
     }
     .pic{
         margin-top: 90px;
-        height: 700px;
+        width: 800px;
+        height: 300px;
         margin-bottom: 50px;
     }
 
     .pic img{
-        padding-top: 40px;
-        padding-left: 30px;
+        padding-top: 20px;
+        padding-left: 20px;
         padding-right: 20px;
         margin-right: 10px;
-        width: 940px;
-        height: 700px;
+        width: 800px;
+        height: 300px;
+    }
+
+    .intro h1{
+        font-size: 40px;
     }
 
     img.pic1, img.pic2, img.pic3, img.pic4, img.pic5, img.pic6,img.pic7, img.pic6, img.pic7, img.pic8, img.pic9{
-        height: 800px;
-        width:500px ;
-        left: max(calc(500px * 9), 100%);
+        height: 600px;
+        width: 300px ;
+        left: max(calc(300px * 9), 100%);
     }  
 
     @keyframes slidetoleft{
@@ -546,21 +555,21 @@ a:visited{
         }
     }
     .gal{
-        border:1px solid black;
+        margin-top: 20px;
         width: 900px;
         height: 800px;
     }
 
     .ntgal{
-        border:1px solid black;
+        margin-top: 20px;
         width: 900px;
         height: 800px;
     }
 
     img.ntpic1, img.ntpic2, img.ntpic3, img.ntpic4, img.ntpic5, img.ntpic6,img.ntpic7, img.ntpic6, img.ntpic7, img.ntpic8, img.ntpic9{
-        height: 800px;
-        width:500px ;
-        right: max(calc(500px * 9), 100%);
+        height: 600px;
+        width: 300px ;
+        right: max(calc(300px * 9), 100%);
     }  
 
     @keyframes slidetoright{
@@ -571,6 +580,140 @@ a:visited{
 
 
 
+}
+
+
+@media all and (width: 1024px){
+
+    
+    .W-top{
+        padding-top: 10px;
+    }
+
+    .P-top{
+        padding-top: 10px;
+    }
+    .W-top h1{
+        padding-top: 10px;
+    }
+    .P-top h1{
+        padding-top: 10px;
+    }
+
+   
+    .features{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .feat1, .feat2, .feat3{
+       margin-top: 20px;
+        font-size: 30px;
+    }
+}
+
+@media all and (width: 768px){
+    .features{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .feat1, .feat2, .feat3{
+        width: 300px;
+        margin-top: 20px;
+         font-size: 30px;
+     }
+}
+
+@media all and (width: 425px){
+    .intro h1{
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .pic{
+        width: 400px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pic img{
+        width: 400px;
+    }
+
+    .intro button{
+        width: 380px;
+    }
+
+    .P-top h1{
+        font-size: 40px;
+    }
+    .W-top h1{
+        font-size: 40px;
+    }
+
+    .features{
+        flex-direction: column;
+    }
+
+    .feats{
+        height: 150vh;
+    }
+
+    .gal{
+        margin-top: 30px;
+    }
+    .ntgal{
+        margin-top: 30px;
+    }
+    .FAQ{
+        height: 200vh;
+    }
+}
+
+@media all and (width: 375px){
+
+    .intro h1{
+        width: 300px;
+        font-size: 30px;
+    }
+
+    .pic{
+        width: 365px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .pic img{
+        width: 365px;
+    }
+
+    .intro button{
+        width: 345px;
+    }
+    .features{
+        flex-direction: column;
+    }
+    .feats{
+        height: 150vh;
+    }
+
+    .feat1, .feat2, .feat3{
+        width: 300px;
+        height: 250px;
+    }
+
+
+    .P-top h1{
+        font-size: 30px;
+    }
+    .W-top h1{
+        font-size: 30px;
+    }
+
+    .FAQ{
+        height: 200vh;
+    }
 }
 
 
