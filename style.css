@@ -424,7 +424,55 @@ a:visited{
 }
 
 
+.mocks{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    align-items: center;
+    gap: 20px;
 
+    
+}
+
+.mockgal{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1900px;
+    height: 570px;
+    gap: 40px;
+    overflow: hidden;
+}
+
+
+
+.mocpic{
+    position: relative;
+    
+    align-items: center;
+    height: 500px;
+    width:500px ;
+    border-radius: 20px;
+    background-color: #ebeef1;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),-10px -10px 10px -1px rgb(255,255,255,0.70);
+
+    padding-top: 30px;
+    margin-top: 30px;
+}
+
+.mocpic img{
+    position: relative;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:10px;
+    margin-right:10px;
+    height: 460px;
+    width: 460px;
+}
 
 
 
@@ -635,6 +683,10 @@ a:visited{
         rgba(0,0,0,0)
     );
      }
+
+      .mockgal{
+        gap: 0px;
+    }
 }
 
 @media all and (max-width: 768px){
@@ -664,6 +716,47 @@ a:visited{
         margin-top: 20px;
         width: 710px;
      }
+    .gal{
+        mask-image: linear-gradient( to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 70% ,
+        rgba(0,0,0,0)
+    );
+     }
+
+     .ntgal{
+        mask-image: linear-gradient( to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 70% ,
+        rgba(0,0,0,0)
+    );
+     }
+
+     .mocks{
+        height: 150vh;
+     }
+    
+     .mockgal{
+        padding-top: 10px;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: 80%;
+
+    }
+    .mocpic{
+        height:450px ;
+        width: 450px;
+    
+    }
+    .mocpic img{
+        height:420px ;
+        width: 420px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
 }
 
 @media all and (max-width: 425px){
@@ -748,6 +841,27 @@ a:visited{
         rgba(0,0,0,0)
     );
      }
+
+    
+     .mocks{
+        height: 120vh;
+     }
+     .mockgal{
+       height:100vh;
+     }
+
+     .mocpic{
+        margin-top: 0px;
+        height:400px ;
+        width: 400px;
+    
+    }
+    .mocpic img{
+        height:370px ;
+        width: 370px;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
 }
 
 @media all and (max-width: 375px){
