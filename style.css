@@ -484,6 +484,107 @@ a:visited{
 
 
 
+@media screen and (max-width: 1440px){
+
+    .nav1, .nav2, .nav3{
+        display: none;
+    }
+
+    .W-top{
+        padding-top: 10px;
+    }
+
+    .P-top{
+        padding-top: 10px;
+    }
+    .W-top h1{
+        padding-top: 10px;
+    }
+    .P-top h1{
+        padding-top: 10px;
+    }
+ 
+    .features{
+        flex-direction:row;
+        gap: 10px;
+    }
+
+    .feat1, .feat2, .feat3{
+        width: 400px;
+        font-size: 30px;
+    }
+
+    .feat1 p, .feat2 p, .feat3 p{
+        font-size: 15px;
+    }
+
+
+    .content{
+        
+        padding-top:40px ;
+        flex-direction: column-reverse;
+    }
+    .pic{
+        margin-top: 90px;
+        width: 800px;
+        height: 300px;
+        margin-bottom: 50px;
+    }
+
+    .pic img{
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 10px;
+        width: 800px;
+        height: 300px;
+    }
+
+    .intro h1{
+        font-size: 40px;
+    }
+
+    img.pic1, img.pic2, img.pic3, img.pic4, img.pic5, img.pic6,img.pic7, img.pic6, img.pic7, img.pic8, img.pic9{
+        height: 600px;
+        width: 300px ;
+        left: max(calc(300px * 9), 100%);
+    }  
+
+    @keyframes slidetoleft{
+        to{
+    
+            left:-500px;
+        }
+    }
+    .gal{
+        margin-top: 20px;
+        width: 900px;
+        height: 800px;
+    }
+
+    .ntgal{
+        margin-top: 20px;
+        width: 900px;
+        height: 800px;
+    }
+
+    img.ntpic1, img.ntpic2, img.ntpic3, img.ntpic4, img.ntpic5, img.ntpic6,img.ntpic7, img.ntpic6, img.ntpic7, img.ntpic8, img.ntpic9{
+        height: 600px;
+        width: 300px ;
+        right: max(calc(300px * 9), 100%);
+    }  
+
+    @keyframes slidetoright{
+        to{
+            right:-500px;
+        }
+    }
+
+
+
+}
+
+
 
 @media all and (max-width: 1024px){
 
@@ -677,6 +778,7 @@ a:visited{
         height: 200vh;
     }
 }
+
 
 
 
