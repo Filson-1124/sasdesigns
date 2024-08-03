@@ -531,7 +531,6 @@ a:visited{
 
 
 
-
 @media screen and (max-width: 1440px){
 
     .nav1, .nav2, .nav3{
@@ -665,28 +664,33 @@ a:visited{
        margin-top: 20px;
         font-size: 30px;
     }
-
-    .gal{
-        mask-image: linear-gradient( to right,
-        rgba(0,0,0,0),
-        rgba(0,0,0,1) 20%,
-        rgba(0,0,0,1) 70% ,
-        rgba(0,0,0,0)
-    );
-     }
-
-     .ntgal{
-        mask-image: linear-gradient( to right,
-        rgba(0,0,0,0),
-        rgba(0,0,0,1) 20%,
-        rgba(0,0,0,1) 70% ,
-        rgba(0,0,0,0)
-    );
-     }
-
-      .mockgal{
-        gap: 0px;
+    .mocks{
+        height: 160vh;
     }
+
+    .mockgal{
+        height: 150vh;
+        gap: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+    }
+
+      .mocpic{
+         margin-top: 0px;
+         height:350px ;
+         width: 350px;
+     
+     }
+     .mocpic img{
+         height:320px ;
+         width: 320px;
+         padding-top: 0px;
+         margin-top: 0px;
+         padding-left: 10px;
+     }
+
+    
 }
 
 @media all and (max-width: 768px){
@@ -716,7 +720,8 @@ a:visited{
         margin-top: 20px;
         width: 710px;
      }
-    .gal{
+
+     .gal{
         mask-image: linear-gradient( to right,
         rgba(0,0,0,0),
         rgba(0,0,0,1) 20%,
@@ -735,7 +740,7 @@ a:visited{
      }
 
      .mocks{
-        height: 150vh;
+        height: 200vh;
      }
     
      .mockgal{
@@ -747,16 +752,18 @@ a:visited{
 
     }
     .mocpic{
-        height:450px ;
-        width: 450px;
+        height:350px ;
+        width: 350px;
     
     }
     .mocpic img{
-        height:420px ;
-        width: 420px;
+        height:320px ;
+        width: 320px;
         padding-top: 0px;
         margin-top: 0px;
     }
+    
+
 }
 
 @media all and (max-width: 425px){
@@ -765,7 +772,7 @@ a:visited{
         height: 60px;
     }
 
-    .nav4 .txt{
+    .nav4 .txt {
         display: none;
     }
 
@@ -803,6 +810,7 @@ a:visited{
         font-size: 40px;
         width: 350px;
     }
+   
     .W-top h1{
         font-size: 40px;
     }
@@ -843,25 +851,25 @@ a:visited{
     );
      }
 
-    
      .mocks{
-        height: 120vh;
+        height: 160vh;
      }
      .mockgal{
-       height:100vh;
+       height:160vh;
      }
 
      .mocpic{
         margin-top: 0px;
-        height:400px ;
-        width: 400px;
+        height:300px ;
+        width: 300px;
     
     }
     .mocpic img{
-        height:370px ;
-        width: 370px;
+        height:270px ;
+        width: 270px;
         padding-top: 0px;
         margin-top: 0px;
+        padding-left: 10px;
     }
 }
 
@@ -871,8 +879,9 @@ a:visited{
         height: 60px;
     }
 
-    .nav4 .txt{
+    .txt{
         display: none;
+        color: transparent;
     }
 
 
@@ -929,9 +938,6 @@ a:visited{
         height: 220vh;
     }
 }
-
-
-
 
 
 
