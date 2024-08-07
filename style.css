@@ -423,6 +423,73 @@ a:visited{
     animation-delay: calc(40s / 9 * (9 - 9) * -1);
 }
 
+.Gallery-CM{
+    display: flex;
+    flex-direction:column;
+    background-color: white;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    color: rgb(160, 95, 221);
+}
+
+
+.cgal{
+    
+    width: 90%;
+    max-width:1536px;
+    margin-inline: auto;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+    width: 1400px;
+    height: 400px;
+    overflow: hidden;
+
+    mask-image: linear-gradient( to right,
+        rgba(0,0,0,0),
+        rgba(0,0,0,1) 20%,
+        rgba(0,0,0,1) 80% ,
+        rgba(0,0,0,0)
+    );
+
+}
+
+.cmpic1,.cmpic2,.cmpic3,.cmpic4,.cmpic5,.cmpic6,.cmpic7 {
+    position: absolute;
+    min-height: 400px;
+    width:300px ;
+    left: max(calc(300px * 7), 100%);
+    animation: slidetoleft;
+    animation-duration: 40s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    border-radius: 10px;
+}
+
+.cmpic1{
+    animation-delay: calc(40s / 7 * (7 - 1) * -1);
+}
+.cmpic2{
+    animation-delay: calc(40s / 7 * (7 - 2) * -1);
+}
+.cmpic3{
+    animation-delay: calc(40s / 7 * (7 - 3) * -1);
+}
+.cmpic4{
+    animation-delay: calc(40s / 7 * (7 - 4) * -1);
+}
+.cmpic5{
+    animation-delay: calc(40s / 7 * (7 - 5) * -1);
+} 
+.cmpic6{
+    animation-delay: calc(40s / 7 * (7 - 6) * -1);
+}
+.cmpic7{
+    animation-delay: calc(40s / 7 * (7 - 7) * -1);
+}
+
 
 .mocks{
     position: relative;
